@@ -19,7 +19,6 @@ development:
   encoding: unicode
   database: flynn_dance_development
   pool: 5
-  username: thomasbrennan
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
