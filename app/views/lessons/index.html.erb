@@ -1,0 +1,24 @@
+<h1>Lessons Schedule</h1>
+
+<body>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Level</th>
+        <th>Category</th>
+        <th>Location</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+        <% @lessons.each do |lesson|%>
+        <tr>
+          <td><%= lesson.level %></td>
+          <td><%= lesson.category %></td>
+          <td><%= lesson.location %></td>
+          <td><%= lesson.datetime %></td>
+        <% end %>
+      </tr>
+    </tbody>
+  </table>
+</body>

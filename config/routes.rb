@@ -1,6 +1,9 @@
 FlynnDance::Application.routes.draw do
+  get "lessons/index"
   root 'welcome#index'
   get 'about' => 'welcome#about'
+
+  resources :lessons
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
