@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'pry-rails'
 gem 'bootstrap-sass'
+gem 'devise', '~> 3.2.4'
 gem 'rails_12factor', group: :production
 
 group :development, :test do

@@ -35,5 +35,8 @@ module FlynnDance
       :request_specs => false
       g.fixture_replacement :factory_girl, :dir=>"spec/factories"
     end
+
+    # Required for Heroku
+    config.assets.initialize_on_precompile = false
   end
 end

@@ -1,4 +1,5 @@
 FlynnDance::Application.routes.draw do
+  devise_for :users
   get "lessons/index"
   root 'welcome#index'
   get 'about' => 'welcome#about'
