@@ -28,9 +28,21 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'pry-rails'
-gem 'rspec', '~> 2.14.1'
 gem 'bootstrap-sass'
 gem 'rails_12factor', group: :production
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+end
+
+group :test do
+    gem "faker"
+    gem "capybara"
+    gem "database_cleaner"
+    gem "launchy"
+    gem "selenium-webdriver"
+  end
 
 
 group :doc do
