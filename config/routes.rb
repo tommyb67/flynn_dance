@@ -23,7 +23,7 @@ FlynnDance::Application.routes.draw do
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Todo.create(id: product.id)
+# Todo.create(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
